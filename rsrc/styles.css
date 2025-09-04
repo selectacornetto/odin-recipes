@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+    font-family: Courier, monospace;
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.website,
+.period {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -3px;
+}
+
+.website {
+    padding: 30px 30px;
+    background-color: rgb(11, 11, 11);
+}
+
+.website a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+
+.period {
+    color: rgb(255, 196, 0);
+    display: inline;
+}
+
+.navbar {
+    padding: 10px 0px;
+    background-color: rgb(255, 196, 0);
+}
+
+.navbar li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s
+}
+/* Header */
+
+.content {
+    padding: 3%;
+}
+
+p {
+    margin: 10px 0px;
+    letter-spacing: -1px;
+}
