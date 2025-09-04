@@ -13,6 +13,7 @@
 /* Header */
 .header {
     text-align: center;
+    display: unset;
 }
 
 .site-name,
@@ -37,6 +38,8 @@
 }
 
 .navbar {
+    position: sticky;
+    top: 0;
     padding: 10px 0px;
     background-color: rgb(255, 196, 0);
 }
@@ -44,18 +47,17 @@
         display: inline;
         margin: 0px 10px;
     }
-
-.navbar a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 5px;
-    font-weight: bold;
-}
-    .navbar a:hover {
-        background-color: black;
-        color: white;
-        transition: 0.3s
+    .navbar a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        font-weight: bold;
     }
+        .navbar a:hover {
+            background-color: black;
+            color: white;
+            transition: 0.3s
+        }
 /* Header */
 
 /* Hero Banner */
@@ -93,10 +95,10 @@
         background-color: rgb(255, 196, 0);
         text-decoration: none;
     }
-    .hero-button a:hover {
-        background-color: rgb(255, 255, 255);
-        transition: .3s
-    }
+        .hero-button a:hover {
+            background-color: rgb(255, 255, 255);
+            transition: .3s
+        }
 /* Hero Banner */
 
 .recipe-img {
