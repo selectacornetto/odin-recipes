@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: Courier, monospace;
-        outline: 1px solid red;
 }
 
 /* Header */
@@ -91,7 +90,14 @@ p {
     margin: 20px 0;
 }
 
-.ingredients {
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.ingredients,
+.instructions {
     margin: 0 20%;
     padding: 20px;
     background-color: rgb(255, 196, 0);
@@ -100,13 +106,18 @@ p {
     .ingredients ul {
         list-style-type: none;
     }
+    .ingredients li {
+        margin: 5px 0 5px
+    }
+    .instructions li {
+        margin: 5px 0 5px 40px;
+    }
+
+.instructions {
+    margin-top: 20px;
+}
 
 .ingredients .checkbox {
-    margin-right: 5px;
+    margin-right: 10px;
 }
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-bottom: 10px
-}
+/* Recipes */
