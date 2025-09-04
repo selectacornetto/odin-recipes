@@ -93,6 +93,10 @@
         background-color: rgb(255, 196, 0);
         text-decoration: none;
     }
+    .hero-button a:hover {
+        background-color: rgb(255, 255, 255);
+        transition: .3s
+    }
 /* Hero Banner */
 
 .recipe-img {
