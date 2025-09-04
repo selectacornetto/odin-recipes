@@ -91,10 +91,24 @@ p {
 .preview {
     outline: 3px dashed black;
     width: 300px;
-    background-color: rgb(255, 196, 0);
     margin: 20px 20px;
     flex: 30%;
+    background-color: rgb(255, 196, 0);
 }
+    .preview a {
+        height: 100%;
+        width: 100%;
+        color: black;
+        text-decoration: none;
+    }
+        .preview a:hover {
+            color: white;
+            transition: 0.3s;
+        }
+    .preview:hover {
+        background-color: black;
+        transition: 0.3s;
+    }
     .preview img {
         width: 100%;
     }
@@ -118,17 +132,20 @@ p {
 h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
-    .ingredients-instructions h2 {
+    .recipe-container h2 {
         text-align: center;
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .ingredients,
 .instructions {
-    margin: 0 20%;
+    margin: 20px;
     padding: 20px;
-    background-color: rgb(255, 196, 0);
-    border: 3px dashed black;
 }
     .ingredients ul {
         list-style-type: none;
@@ -140,11 +157,16 @@ h2 {
         margin: 5px 0 5px 40px;
     }
 
-.instructions {
-    margin-top: 20px;
+.ingredients {
+    flex: 30%;
+    background-color: rgb(255, 196, 0);
+    border: 3px dashed black;
 }
+    .ingredients input {
+    margin-right: 20px;
+    }
 
-.ingredients input {
-    margin-right: 10px;
+.instructions {
+    flex: 70%;
 }
 /* Recipes */
