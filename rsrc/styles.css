@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Courier, monospace;
-    outline: 1px solid red;
+
 }
 
 /* Header */
@@ -73,6 +73,7 @@ h1 {
 
 .content {
     padding: 3% 8%;
+    line-height: 90%
 }
 
 p {
@@ -140,6 +141,19 @@ h2 {
 .recipe-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ingredients {
+    background-color: rgb(255, 196, 0);
+    border: 3px dashed black;
+}
+    .ingredients input {
+    margin-right: 15px;
+    }
+
+.instructions {
+
 }
 
 .ingredients,
@@ -156,17 +170,4 @@ h2 {
     .instructions li {
         margin: 5px 0 5px 40px;
     }
-
-.ingredients {
-    flex: 30%;
-    background-color: rgb(255, 196, 0);
-    border: 3px dashed black;
-}
-    .ingredients input {
-    margin-right: 20px;
-    }
-
-.instructions {
-    flex: 70%;
-}
 /* Recipes */
