@@ -137,7 +137,7 @@ p {
     outline: 3px dashed black;
     width: 300px;
     margin: 20px 20px;
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     background-color: rgb(255, 196, 0);
 }
     .preview a {
