@@ -213,22 +213,25 @@ h2 {
     flex: 3 1 0;
 }
     .instructions li {
-        margin: 5px 0 10px 40px;
+        margin: 10px;
     }
 /* Recipes */
 
-.recipes-button {
+.recipes-button,
+.home-button {
     text-align: center;
     margin: 25px auto;
 }
-    .recipes-button a {
+    .recipes-button a,
+    .home-button a {
         padding: 5px 10px;
         background-color: black;
         color: white;
         text-decoration: none;
         font-weight: bold;
     }
-    .recipes-button a:hover {
+    .recipes-button a:hover,
+    .home-button a:hover {
         background-color: rgb(255, 196, 0);
         color: black;
         transition: 0.3s;
