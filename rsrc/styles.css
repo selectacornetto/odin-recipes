@@ -108,8 +108,8 @@ h1 {
     margin: 10px auto 30px;
 }
 .content {
-    padding: 3% 8%;
-    line-height: 90%
+    padding: 3% 15vw;
+    line-height: 90%;
 }
 p {
     margin: 10px 0px;
@@ -153,9 +153,10 @@ p {
 /* Preview */
 
 /* Recipes */
-.content > p {
+.recipe-description > p {
     padding-top: 10px;
 }
+
 .note {
     text-align: center;
     background-color: black;
@@ -199,6 +200,9 @@ h2 {
 }
     .instructions li {
         margin: 10px;
+    }
+    .instructions > h2 {
+        text-align: left;
     }
 /* Recipes */
 
